@@ -1,0 +1,25 @@
+2024-01-21 00:44:07,818 - root - INFO - ************* SearchCustomerByEmail_004 **********
+2024-01-21 00:44:11,488 - root - INFO - ************* Login succesful **********
+2024-01-21 00:44:11,488 - root - INFO - ******* Starting Search Customer By Email **********
+2024-01-21 00:44:27,120 - root - INFO - ************* searching customer by emailID **********
+2024-01-21 00:44:32,210 - root - INFO - Actual email found: False
+2024-01-21 00:44:32,210 - root - INFO - Expected email: 'victoria_victoria@nopCommerce.com'
+2024-01-21 00:50:22,295 - root - INFO - ************* SearchCustomerByEmail_004 **********
+2024-01-21 00:50:27,800 - root - INFO - ************* Login succesful **********
+2024-01-21 00:50:27,801 - root - INFO - ******* Starting Search Customer By Email **********
+2024-01-21 00:52:40,592 - root - INFO - ************* SearchCustomerByEmail_004 **********
+2024-01-21 00:52:43,910 - root - INFO - ************* Login succesful **********
+2024-01-21 00:52:43,911 - root - INFO - ******* Starting Search Customer By Email **********
+2024-01-21 00:52:55,771 - root - INFO - ************* searching customer by emailID **********
+2024-01-21 00:54:08,792 - root - INFO - ************* SearchCustomerByEmail_004 **********
+2024-01-21 00:54:14,211 - root - INFO - ************* Login succesful **********
+2024-01-21 00:54:14,211 - root - INFO - ******* Starting Search Customer By Email **********
+2024-01-21 00:54:25,949 - root - INFO - ************* searching customer by emailID **********
+2024-01-21 01:02:18,975 - root - INFO - ************* SearchCustomerByEmail_004 **********
+2024-01-21 01:02:23,405 - root - INFO - ************* Login succesful **********
+2024-01-21 01:02:23,405 - root - INFO - ******* Starting Search Customer By Email **********
+2024-01-21 01:02:35,175 - root - INFO - ************* searching customer by emailID **********
+2024-01-21 01:05:07,418 - root - INFO - ************* SearchCustomerByEmail_004 **********
+2024-01-21 01:05:11,725 - root - INFO - ************* Login succesful **********
+2024-01-21 01:05:11,725 - root - INFO - ******* Starting Search Customer By Email **********
+2024-01-21 01:05:23,393 - root - INFO - ************* searching customer by emailID **********
