@@ -119,3 +119,53 @@
 2024-01-29 19:51:35,255 - root - INFO - ************* Login succesful **********
 2024-01-29 19:51:35,255 - root - INFO - ******* Starting Search Customer By Name **********
 2024-01-29 19:51:51,988 - root - INFO - ************* searching customer by Name **********
+2024-01-29 22:54:37,270 - root - INFO - ************* Test_003_AddCustomer **********
+2024-01-29 22:54:37,270 - root - INFO - ************* Test_003_AddCustomer **********
+2024-01-29 22:54:37,270 - root - INFO - ************* Test_003_AddCustomer **********
+2024-01-29 22:54:37,270 - root - INFO - ************* Test_003_AddCustomer **********
+2024-01-29 22:54:37,270 - root - INFO - ************* Test_003_AddCustomer **********
+2024-01-29 22:54:41,547 - root - INFO - ************* Login succesful **********
+2024-01-29 22:54:41,547 - root - INFO - ************* Login succesful **********
+2024-01-29 22:54:41,547 - root - INFO - ************* Login succesful **********
+2024-01-29 22:54:41,547 - root - INFO - ************* Login succesful **********
+2024-01-29 22:54:41,547 - root - INFO - ************* Login succesful **********
+2024-01-29 22:54:41,547 - root - INFO - ******* Starting Add Customer Test **********
+2024-01-29 22:54:41,547 - root - INFO - ******* Starting Add Customer Test **********
+2024-01-29 22:54:41,547 - root - INFO - ******* Starting Add Customer Test **********
+2024-01-29 22:54:41,547 - root - INFO - ******* Starting Add Customer Test **********
+2024-01-29 22:54:41,547 - root - INFO - ******* Starting Add Customer Test **********
+2024-01-29 22:55:02,816 - root - INFO - ************* Providing customer info **********
+2024-01-29 22:55:02,816 - root - INFO - ************* Providing customer info **********
+2024-01-29 22:55:02,816 - root - INFO - ************* Providing customer info **********
+2024-01-29 22:55:02,816 - root - INFO - ************* Providing customer info **********
+2024-01-29 22:55:02,816 - root - INFO - ************* Providing customer info **********
+2024-01-29 22:55:20,110 - root - INFO - ************* Saving customer info **********
+2024-01-29 22:55:20,110 - root - INFO - ************* Saving customer info **********
+2024-01-29 22:55:20,110 - root - INFO - ************* Saving customer info **********
+2024-01-29 22:55:20,110 - root - INFO - ************* Saving customer info **********
+2024-01-29 22:55:20,110 - root - INFO - ************* Saving customer info **********
+2024-01-29 22:55:20,110 - root - INFO - ********* Add customer validation started *****************
+2024-01-29 22:55:20,110 - root - INFO - ********* Add customer validation started *****************
+2024-01-29 22:55:20,110 - root - INFO - ********* Add customer validation started *****************
+2024-01-29 22:55:20,110 - root - INFO - ********* Add customer validation started *****************
+2024-01-29 22:55:20,110 - root - INFO - ********* Add customer validation started *****************
+2024-01-29 22:55:30,197 - root - INFO - ********* Add customer Test Passed *********
+2024-01-29 22:55:30,197 - root - INFO - ********* Add customer Test Passed *********
+2024-01-29 22:55:30,197 - root - INFO - ********* Add customer Test Passed *********
+2024-01-29 22:55:30,197 - root - INFO - ********* Add customer Test Passed *********
+2024-01-29 22:55:30,197 - root - INFO - ********* Add customer Test Passed *********
+2024-01-29 22:55:30,309 - root - INFO - ******* Ending Add customer test **********
+2024-01-29 22:55:30,309 - root - INFO - ******* Ending Add customer test **********
+2024-01-29 22:55:30,309 - root - INFO - ******* Ending Add customer test **********
+2024-01-29 22:55:30,309 - root - INFO - ******* Ending Add customer test **********
+2024-01-29 22:55:30,309 - root - INFO - ******* Ending Add customer test **********
+2024-01-29 22:55:31,532 - root - INFO - ************* Login test is started ************
+2024-01-29 22:55:31,532 - root - INFO - ************* Login test is started ************
+2024-01-29 22:55:31,532 - root - INFO - ************* Login test is started ************
+2024-01-29 22:55:31,532 - root - INFO - ************* Login test is started ************
+2024-01-29 22:55:31,532 - root - INFO - ************* Login test is started ************
+2024-01-29 22:55:36,466 - root - INFO - ************* Login test title is PASSED ************
+2024-01-29 22:55:36,466 - root - INFO - ************* Login test title is PASSED ************
+2024-01-29 22:55:36,466 - root - INFO - ************* Login test title is PASSED ************
+2024-01-29 22:55:36,466 - root - INFO - ************* Login test title is PASSED ************
+2024-01-29 22:55:36,466 - root - INFO - ************* Login test title is PASSED ************
