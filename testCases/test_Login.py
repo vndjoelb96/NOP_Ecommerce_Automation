@@ -4,6 +4,7 @@ from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
+
 class Test_001_Login:
     baseUrl = ReadConfig.getapplicationURL()
     username = ReadConfig.getuseremail()
@@ -11,6 +12,7 @@ class Test_001_Login:
 
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_homepagetitle(self, setup):
         self.logger.info("************* Test_001_Login ************")
         self.logger.info("************* Verifying Homepage title ************")
@@ -29,6 +31,8 @@ class Test_001_Login:
             self.logger.error("************* Verifying Homepage title is FAILED ************")
             assert False
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_login(self, setup):
         self.logger.info("************* Login test is started ************")
         self.driver = setup

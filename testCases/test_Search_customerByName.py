@@ -7,18 +7,19 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
 
-class Test_SearchCustomerByEmail_004:
+class Test_SearchCustomerByName_005:
     baseURL = ReadConfig.getapplicationURL()
     username = ReadConfig.getuseremail()
     password = ReadConfig.getuserpassword()
     logger = LogGen.loggen()  # Logger
 
     @pytest.mark.regression
-    def test_searchCustomerByEmail(self, setup):
-        self.logger.info("************* SearchCustomerByEmail_004 **********")
+    def test_searchCustomerByName(self, setup):
+        self.logger.info("************* SearchCustomerByName_005 **********")
         self.driver = setup
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
+        # self.driver.implicitly_wait(10)
 
         self.lp = LoginPage(self.driver)
         self.lp.setUsername(self.username)
@@ -26,25 +27,24 @@ class Test_SearchCustomerByEmail_004:
         self.lp.clickLogin()
         self.logger.info("************* Login succesful **********")
 
-        self.logger.info("******* Starting Search Customer By Email **********")
+        self.logger.info("******* Starting Search Customer By Name **********")
 
         self.addcust = AddCustomer(self.driver)
         self.addcust.clickOnCustomersMenu()
-        time.sleep(5)
+        time.sleep(10)
         self.addcust.clickOnCustomersMenuItem()
         time.sleep(5)
 
-        self.logger.info("************* searching customer by emailID **********")
+
+        self.logger.info("************* searching customer by Name **********")
         searchcust = SearchCustomer(self.driver)
-        time.sleep(5)
-        searchcust.setEmail("victoria_victoria@nopCommerce.com")
-        print(searchcust)
-        time.sleep(5)
+        searchcust.setFirstName("Victoria")
+        searchcust.setLastName("Terces")
         searchcust.clickSearch()
-        time.sleep(5)
-        status = searchcust.searchCustomerByEmail("victoria_victoria@nopCommerce.com")
-        print(status)
-        time.sleep(5)
-        assert True == status
+        time.sleep(10)
+        status = searchcust.searchCustomerByName("Victoria Terces")
+        print("Status:", status)
         self.driver.close()
-        self.logger.info("***************  TC_SearchCustomerByEmail_004 Finished  *********** ")
+
+        assert True == status
+        self.logger.info("***************  TC_SearchCustomerByName_005 Finished  *********** ")

@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 
 
@@ -9,7 +11,7 @@ class SearchCustomer:
     btnSearch_id = "search-customers"
 
     tblSearchResults_xpath = "//div[@id='customers-grid_wrapper']"  # //table[@role='grid']"  # //div[@id='customers-grid_wrapper']
-    table_xpath = "//table[@id='customers-grid']"
+    table_xpath = "//*[@id='customers-grid']"
     tableRows_xpath = "//table[@id='customers-grid']//tbody/tr"
     tableColumns_xpath = "//table[@id='customers-grid']//tbody/tr/td"
 
@@ -41,6 +43,7 @@ class SearchCustomer:
         flag = False
         for r in range(1, self.getNoOfRows() + 1):
             table = self.driver.find_element(By.XPATH, self.table_xpath)
+
             emailid = table.find_element_by_xpath("//table[@id='customers-grid']/tbody/tr[" + str(r) + "]/td[2]").text
 
             if emailid == email:
@@ -51,9 +54,11 @@ class SearchCustomer:
     def searchCustomerByName(self, Name):
         flag = False
         for r in range(1, self.getNoOfRows() + 1):
-            table = self.driver.find_element(By.XPATH, self.table_xpath)
-            name = table.find_element(By.XPATH, "//table[@id='customers-grid']/tbody/tr[" + str(r) + "]/td[3]").text
+            table = self.driver.find_elements(By.XPATH, self.table_xpath)
+            name_xpath = f"//*[@id='customers-grid']/tbody/tr/td[3]"
+            name = table.find_elements(By.XPATH, name_xpath).text
             if name == Name:
                 flag = True
                 break
         return flag
+
